@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 13 - Canvas - Filters and Rectangles</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body onload="displayImage(3, 9)">
+		<canvas id="canvas" width="900" height="700">
+			Your browser doesn't support canvas!
+		</canvas> <br>
+		
+		Filters: 
+		<button onclick="invertColours()">Invert Colours</button>
+		<button onclick="brightenColours()">Brighten Colours</button>
+		<button onclick="fadeEdge()">Fade Right Edge</button> <br> <br>
+		
+		Grid: 
+		<button onclick="drawRandomRects(3, 9)">Fill Random Grid Cells</button>
+		<button onclick="displayImage(3, 9)">Clear</button>
+		
+		<script src="CanvasRectangles.js"></script>
+		<script src="CanvasFilters.js"></script>
+	</body>
+</html>
